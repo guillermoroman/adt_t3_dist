@@ -15,14 +15,14 @@ public class JDBC_transacciones {
 
                 c.setAutoCommit(false);
 
-                sInsert.setString(1, "98237469V");
-                sInsert.setString(2, "PEREZ");
-                sInsert.setString(3, "45623");
+                sInsert.setString(1, "54320198V");
+                sInsert.setString(2, "CARVAJAL");
+                sInsert.setString(3, "10109");
                 sInsert.executeUpdate();
 
-                sInsert.setString(1, "92836477S");
-                sInsert.setString(2, "MARTINEZ");
-                sInsert.setString(3, "56987");
+                sInsert.setString(1, "76543210S");
+                sInsert.setString(2, "MARQUEZ");
+                sInsert.setString(3, "46987");
                 sInsert.executeUpdate();
 
                 sInsert.setString(1, "90123445A");
